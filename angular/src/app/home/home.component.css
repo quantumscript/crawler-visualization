@@ -1,0 +1,30 @@
+h2 {
+  font-family: SignPainter;
+  font-size: 40px;
+}
+
+p {
+  font-family: AmericanTypewriter;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+#intro_text {
+  margin: 4rem 0rem 3rem 0rem;
+}
+
+
+#card_container {
+  width: 80%;
+  margin: 0 auto 3rem auto;
+}
+
+app-post-create, app-activity {
+  display: inline-block;
+  width: 48.5%;
+  vertical-align: top;
+}
+
+app-post-create {
+  margin-right: 3%;
+}

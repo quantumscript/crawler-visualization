@@ -1,0 +1,42 @@
+mat-form-field, textarea {
+  width: 95%;
+}
+
+mat-radio-group {
+  display: inline-grid;
+  width: 90%;
+}
+
+mat-radio-button {
+  padding: 10px;
+}
+
+.form_row {
+  display: block;
+  flex-direction: row;
+}
+
+.form_row > mat-form-field, mat-radio-group {
+  padding: 0.5rem 1.5rem 0.5rem 0;
+}
+
+.small_space {
+  width: 25%;
+}
+
+.med_space {
+  width: 45%;
+}
+
+.form_submit {
+  margin-left: 0.5rem;
+}
+
+#mat-radio-3 {
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+
+.red {
+  color: red;
+}

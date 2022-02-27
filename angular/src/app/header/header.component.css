@@ -1,0 +1,66 @@
+mat-toolbar {
+  display: block;
+  margin-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+img, h1 {
+  display: inline-block;
+}
+
+img {
+  width: 45px;
+  height: 45px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+h1 {
+  vertical-align: super;
+  font-family: SignPainter;
+  font-size: 50px;
+}
+
+h4 {
+  font-family: AmericanTypewriter;
+  font-size: 13px;
+  line-height: 1.5rem;
+}
+
+#svgContainer1a, #svgContainer1b {
+  top: 0px;
+  display: none;
+  position: absolute;
+  overflow: hidden;
+}
+
+#svgContainer1a {
+  right: 0px;
+}
+
+#svgContainer1b {
+  left: 0px;
+}
+
+#svgWebR {
+  background-color: transparent;
+  width: 155px;
+  margin-top: -5rem;
+  margin-right: -5rem;
+}
+
+#svgWebL {
+  background-color: transparent;
+  width: 155px;
+  margin-top: 0rem;
+  margin-left: -5rem;
+}
+
+#pathWebR {
+  fill: white;
+}
+
+#pathWebL {
+  fill: #2b2b2b;
+}

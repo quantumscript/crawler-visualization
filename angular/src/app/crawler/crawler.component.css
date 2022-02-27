@@ -1,0 +1,67 @@
+mat-progress-spinner {
+  background-color: transparent;
+  margin: 5rem auto 5rem auto;
+}
+
+#crawlerContainer {
+  display: inline-block;
+  width: 100%;
+  justify-content: center;
+  margin: 2rem auto 0 auto;
+  background-color: #efefef;
+  overflow-x: auto;
+}
+
+svg {
+  background-color: #efefef;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.node {
+  stroke: #222;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #222;
+  stroke-width: 1.5px;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  color: black;
+}
+
+.tooltip p {
+  margin: 0px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+#errorMsg {
+  text-align: center;
+  padding: 3rem 0 3rem 0;
+}
+
+#errorMsg > p {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background-color: #aa0000;
+  color: white;
+}
+
+#extFavicon {
+  /* width: fit-content;
+  height: fit-content; */
+}
