@@ -33,6 +33,11 @@ This program was developed using Angular and the D3 Javascript library on the fr
 5. Look at the visualization, hover over nodes for URL tooltip
 6. Repeat steps 1 - 5 (currently showing the static data)
 
+**Example Graph**
+
+<img width="661" alt="sample_graph" src="https://github.com/quantumscript/crawler-visualization/assets/60626826/b567e03a-4e65-49e7-9230-5b7309615769">
+
+
 ### Crawler Only
 **Testing Python**
 The separeate search functions are composed of individual Python files. The entire file is designed to be used a Google Cloud Function. However they can still be tested locally by first installing these libraries:
@@ -86,3 +91,4 @@ Result will be a list of Nodes and Edges as in sample below.
     }]
 }
 ```
+
